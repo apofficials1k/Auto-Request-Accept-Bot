@@ -4,12 +4,12 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, 
 
 pr0fess0r_99=Client(
     "𝗕𝗼𝘁 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗢𝗽𝘂𝘀𝗧𝗲𝗰𝗵𝘇",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"]
+    bot_token = os.environ["6654040372:AAFKq29o0lChuii9cnRzTs7g9QsV63OlkaM"],
+    api_id = int(os.environ["23007799"]),
+    api_hash = os.environ["aa694ed52dbd072d6384053560132057"]
 )
 
-CHAT_ID=int(os.environ.get("CHAT_ID", None))
+CHAT_ID=int(os.environ.get("-1001519095564", None))
 TEXT=os.environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nYour Auto Approved")
 APPROVED = os.environ.get("APPROVED_WELCOME", "on").lower()
 
